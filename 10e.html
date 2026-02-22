@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  p{
+    margin-top:0px;
+    margin-bottom:0px;
+    font-family:arial;
+
+  }
+  .img1{
+    width:150px;
+    height:150px;
+  }
+  .same{
+    width:30px;
+    height:30px;
+    border-radius:15px;
+    
+  }
+  
+  .picon{
+    margin-bottom:9px;
+    display:grid;
+    grid-template-columns: 50px 1fr;
+
+
+  }
+  
+  .name{
+    font-weight:bold;
+    font-size:14px;
+    display:inline-block;
+  }
+  
+  .mutual{
+    width:100px;
+    color:grey;
+    font-size:14px;
+    margin-bottom:5px;
+    vertical-align:middle;
+    display:inline-block;
+    
+  }
+  
+  button{
+      background-color:rgba(0, 81, 255, 0.782);
+      color:white;
+      border:none;
+      padding-top:5px;
+      padding-bottom:5px;
+      padding-right:8px;
+      padding-left:8px;
+      border-radius:3px;
+      
+
+    }
+    .picon-2{
+      display:inline-block;
+      width:30px;
+      height:30px;
+      border-radius:15px;
+      
+    }
+    .image-2{
+      width:150px;
+      height:150px;
+    }
+    
+    .line1{
+      display:grid;
+      grid-template-columns: 30px 1fr;
+      align-items:center;
+    
+      margin-bottom:9px;
+    }
+    .statment{
+      
+      width:100px;
+      vertical-align:middle;
+      font-size:14px;
+      color:grey;
+    }
+    
+    .name{
+      margin-bottom:5px;
+      font-weight:bold;
+      font-size:15px;
+       
+    }
+
+    .img-preview{
+    width:150px;
+    
+    display:inline-block;
+    box-shadow: 0px 1px 6px rgba(0,0,0,0.3);
+    padding-left:15px;
+    padding-right:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    vertical-align:top;
+    
+  }
+    .img-body{
+      width:150px;
+      box-shadow:0px 2px 6px rgba(0,0,0,0.25);
+      padding-top:10px;
+      padding-left:10px;
+      padding-right:10px;
+      padding-bottom:10px;
+      vertical-align:top;
+      display:inline-block;
+    }
+
+
+    .img-body3{
+      
+        width:180px;
+        box-shadow: 0px 2px 6px rgba(0,0,0,0.25);
+        padding-left:10px;
+        padding-right:10px;
+        padding-bottom:10px;
+        padding-top:10px;
+        vertical-align:top;
+      }
+      .dog-3{
+        width:150px;
+        height:150px;
+      }
+      .picon-3{
+        width:30px;
+        height:30px;
+        border-radius:15px;
+        vertical-align:middle;
+        object-fit: cover;
+      }
+      .line3{
+        
+       
+        color:grey;
+        font-size:14px;
+      }
+      
+      .oneline{
+        display:grid;
+        grid-template-columns:30px 1fr ;
+        align-items:center;
+
+        margin-bottom: 10px;
+      }
+      .grid{
+        display:grid;
+        grid-template-columns:180px 180px 180px ;
+        column-gap:20px;
+      }
+      
+</style>
+</head>
+
+
+<body>
+  <div class="grid">
+    <div class="img-preview">
+    
+<img class="img1" src="cat1.jpg">
+    
+    <p class="name">Oliver</p>
+
+    
+      <div class="picon">
+<img class="same" src="cat-2.jpg">
+<p class="mutual">2 mutual friends</p>
+
+
+    </div>
+
+<button class="add-button">Add Friend </button>
+  </div>
+
+  <div class="img-body">
+    <img class="image-2" src="cat3.jpg">
+  <p class="name">Mimi</p>
+
+  
+    <div class="line1">
+    <img class="picon-2" src="cat-2.jpg">
+  <p class="statment">3 mutual friends</p>
+
+  
+
+  </div>
+  
+  
+  <button>Add Friend</button>
+  </div>
+
+  <div class="img-body3">
+      <img class="dog-3" src="dog-3.jpg">
+    <p class="name">Rex</p>
+
+    
+      <div class="oneline">
+      <img class="picon-3" src="cat-2.jpg">
+    <p class="line3">4 mutual friends</p>
+
+    </div>
+    
+    
+    <button>Add Friend</button>
+   
+    </div>
+
+  </div>
+  
+
+</body>
+</html>
+
